@@ -14,4 +14,5 @@ Obs: grau é o grau do polinômio, de 2 a 10
 ```
  
 *make* gera os arquivos para o diretório build
+
 *make clean* apaga os arquivos no diretório build
