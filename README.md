@@ -5,10 +5,13 @@
 ```
 cd residuos_quadraticos
 make
-gera out/input.txt
-rq out/input.txt grau   onde grau é o grau do polinômio
+cd build
+gera input.txt
+rq input.txt grau   
+python ajuste_polinomial.py input.txt input.txt_grau.txt
 
+Obs: grau é o grau do polinômio, de 2 a 10
 ```
-Obs: 
-
-*make clean* apaga os arquivos gera e rq, e os arquivos gerados no diretório out
+ 
+*make* gera os arquivos para o diretório build
+*make clean* apaga os arquivos no diretório build
