@@ -8,7 +8,8 @@ all: init rq gera
 
 init:
 	@mkdir -p build
-	@cp plot.py build/
+	@cp ajuste_polinomial.py build/
+	@cp run.sh build/
 	@echo "Diretório build criado e arquivo copiado"
 
 rq:
