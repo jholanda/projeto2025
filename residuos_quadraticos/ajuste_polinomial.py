@@ -62,7 +62,7 @@ try:
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
-    plt.show()
+   # plt.show()
 
     # Nome do arquivo de saída
     base_name = os.path.splitext(args.data_file)[0]
